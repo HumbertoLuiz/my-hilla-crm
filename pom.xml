@@ -234,7 +234,7 @@
                 </dependency>
             </dependencies>
 
-            <!--             <build>
+            <build>
                 <plugins>
                     <plugin>
                         <groupId>dev.hilla</groupId>
@@ -253,7 +253,7 @@
                         </configuration>
                     </plugin>
                 </plugins>
-            </build> -->
+            </build>
 
         </profile>
 
