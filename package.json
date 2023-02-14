@@ -105,16 +105,6 @@
     "serve": "^14.2.0",
     "web-component-analyzer": "^2.0.0-next.4"
   },
-
-  "scripts": {
-    "start": "node server.js"
-  },
-
-   "engines": {
-    "node": "18.14.0",
-    "npm": "9.4.2"
-  },
-
   "devDependencies": {
     "@rollup/plugin-replace": "3.1.0",
     "@rollup/pluginutils": "4.1.0",
