@@ -1,1 +1,0 @@
-web: java -jar target/hilla-crm-1.0-SNAPSHOT.jar
