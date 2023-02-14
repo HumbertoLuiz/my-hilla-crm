@@ -1,5 +1,5 @@
 import express from "express";
-import routes from "routes.ts";
+import routes from "./frontend/routes";
 import cors from "cors";
 
 const app = express();
@@ -15,6 +15,6 @@ try {
 
 app.use(cors());
 app.use(express.json());
-app.use('/login', routes);
+app.use('/', routes);
 
 app.listen(8080, () => console.log('Server running at port 8080'));
