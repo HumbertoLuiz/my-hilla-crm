@@ -2,6 +2,7 @@
   "name": "my-hilla-crm",
   "description": "hilla app example",
   "version": "1.0.0",
+  "main": "index.ts",
   "license": "UNLICENSED",
   "dependencies": {
     "@adobe/lit-mobx": "2.0.0",
@@ -337,7 +338,7 @@
     "hash": "5b6b07f0d10df0b69b41d79255e760fadd11ba65ed628929d1ee449335461640",
 
     "scripts": {
-      "start": "node server.js"
+      "start": "intex.ts"
     },
 
     "engines": {
