@@ -335,8 +335,15 @@
       "workbox-precaching": "6.5.0"
     },
     "hash": "5b6b07f0d10df0b69b41d79255e760fadd11ba65ed628929d1ee449335461640",
+
     "scripts": {
       "start": "node server.js"
+    },
+
+    "engines": {
+    "node": "18.14.0",
+    "npm": "9.4.2"
     }
+
   }
 }
