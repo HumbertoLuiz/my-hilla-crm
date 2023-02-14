@@ -5,8 +5,12 @@
   "main": "index.ts",
   "license": "UNLICENSED",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.ts"
+  "dev": "react-scripts start",
+  "start": "serve -s build",
+  "build": "react-scripts build",
+  "test": "react-scripts test --env=jsdom",
+  "eject": "react-scripts eject",
+  "heroku-postbuild": "npm run build"
   },
   "engines": {
     "node": "18.14.0",
@@ -111,6 +115,7 @@
     "mobx": "^6.5.0",
     "nodemon": "^2.0.20",
     "rollup": "^2.79.1",
+    "serve": "^14.2.0",
     "web-component-analyzer": "^2.0.0-next.4"
   },
   "devDependencies": {
