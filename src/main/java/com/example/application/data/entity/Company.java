@@ -1,5 +1,4 @@
 package com.example.application.data.entity;
-
 import java.util.LinkedList;
 import java.util.List;
 import jakarta.annotation.Nullable;

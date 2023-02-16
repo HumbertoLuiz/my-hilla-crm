@@ -1,8 +1,10 @@
 {
   "recommendations": [
-    "runem.lit-plugin",
-    "vscjava.vscode-java-pack",
-    "pivotal.vscode-spring-boot"
-  ],
+		"runem.lit-plugin",
+		"vscjava.vscode-java-pack",
+		"pivotal.vscode-spring-boot",
+		"michelemelluso.code-beautifier",
+		"vscode-icons-team.vscode-icons"
+	],
   "unwantedRecommendations": []
 }

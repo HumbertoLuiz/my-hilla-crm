@@ -4,6 +4,7 @@ import jakarta.persistence.Entity;
 
 @Entity
 public class Status extends AbstractEntity {
+
     private String name;
 
     public Status() {
